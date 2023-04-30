@@ -1,6 +1,11 @@
 
-body {font-family:'Didot';}
-body {text-align: center;}
+body {
+  font-family:'Didot';
+  text-align: center;
+  margin: 8px;
+  display: block;
+}
+
 
 html {
     --r: 56px; /* control the size */
@@ -31,5 +36,41 @@ html {
       #FF9E9D; /*color 2 again here */
     background-size: calc(4*var(--s)) calc(6*var(--r));
   }
+
+  h1 {
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+  }
+
+  .main-details {
+    display: table;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+  }
+
+  #footer {
+    display: table;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+  }
+
+  #mainHeading {
+    color: red
+  }
+
+  .funParagraph {
+    color: green;
+  }
   
+
   
